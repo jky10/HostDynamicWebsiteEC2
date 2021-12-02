@@ -10,7 +10,7 @@ yum update -y #update packages
 yum install httpd -y #install Apache web server
 #If you need to install more dependencies, like PHP or MySQL ...
 yum install -y httpd mariadb-server
-#Or if you prefer MySQL
+#Or if you prefer MySQL over MariaDB
 wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
 cd /var/www/html/
 wget <insert S3 object URL here>
